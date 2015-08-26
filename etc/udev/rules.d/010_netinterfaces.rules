@@ -1,0 +1,2 @@
+KERNEL=="eth*", SYSFS{address}=="00:15:5d:00:e5:07", NAME="net" # Change mac with mac address of the net interface
+KERNEL=="eth*", SYSFS{address}=="00:15:5d:00:e5:08", NAME="lan" # Change mac with mac address of the lan interface
